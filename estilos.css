@@ -20,9 +20,9 @@ header {
 }
 
 header .logo {
-    color: #f2f2f2;
+    color:dodgerblue;
     font-size: 50px;
-    line-height: 120px;
+    line-height: 110px;
     float: left;
     font-style: italic;
 }
@@ -62,12 +62,12 @@ header .nav-menu a:hover {
 
 .header2 {
     position: fixed;
-    height: 100px;
+    height: 90px;
 }
 
 .header2 .logo {
-    line-height: 90px;
-    font-size: 30px;
+    line-height: 85px;
+    font-size: 35px;
     float: left;
     font-style: italic;
 }
@@ -85,7 +85,12 @@ header .nav-menu a:hover {
     header .nav-menu {
         width: 100%;
         text-align: center;
-        line-height: 90px;
+        line-height: 0px;
+        font-size: 40px;
+    }
+
+    header .nav-menu a{
+        font-size: 18px;
     }
 
     .header2 {
