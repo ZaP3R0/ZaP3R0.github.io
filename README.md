@@ -1,8 +1,1 @@
-<html>
-  <head>
-    <title>Ejemplo</title>
-  </head>
-  <body>
-    <p>Esto es un ejemplo</p>
-  </body>
-</html>
+
