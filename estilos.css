@@ -1,7 +1,6 @@
 /*Cuerpo*/
 body {
     font-family: sans-serif;
-    background: #fffffa;
     line-height: 1.4em;
     margin: 0; /*Eliminamos los margenes de la ventana*/
 }
@@ -20,12 +19,20 @@ p {
 /*Contenidos*/
 .container-body {
     width: 85%;
-    max-width: 1000px;
+    max-width: auto;
     margin: 0 auto;
 }
 
+.main {
+    padding-top: 8rem;
+    background-image: url(img/pexels-andrew-neel-2312369.jpg);
+    width: 100%;
+    display: flow-root;
+    /*Espacio falseado entre el header y el contenido para que no se esconda debajo de la header fija*/
+}
+
 .container-header {
-    width: 85%;
+    width: 90%;
     max-width: 1150px;
     margin: 0 auto;
 }
@@ -95,17 +102,13 @@ p {
     background: #252932;
     text-align: center;
     padding: 0.5rem 0;
-    margin-top: 6rem; /*Espacio del contenido y el footer*/
-    
+    width: 100%;
+     /*Espacio del contenido y el footer*/
 }
 
 /*Color de las letras del footer*/
 .footer p {
     color: dodgerblue;
-}
-
-.main {
-    padding-top: 8rem; /*Espacio falseado entre el header y el contenido para que no se esconda debajo de la header fija*/
 }
 
 .button-menu {
@@ -163,6 +166,5 @@ p {
         border-radius: 50px;
     }
 }
-
 
 
