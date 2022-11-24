@@ -1,0 +1,168 @@
+/*Cuerpo*/
+body {
+    font-family: sans-serif;
+    background: #fffffa;
+    line-height: 1.4em;
+    margin: 0; /*Eliminamos los margenes de la ventana*/
+}
+
+/*Título*/
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+/*Párrafos*/
+p {
+    margin-bottom: 1.6em;
+}
+
+/*Contenidos*/
+.container-body {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-header {
+    width: 85%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/*Cabecera*/
+.header {
+    background: #252932;
+    padding: 2rem 0; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/*Contenido del header*/
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .site-surname {
+    color: dodgerblue;
+}
+
+/*Logo nav*/
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*Centrar el logo en el header*/
+    flex-wrap: wrap; /*Para que al reducir la página los elementos no se fuerzen a estar uno al lado de otro y pasen a estar debajo*/
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+/*Para que las opciones del menú se coloquen horizontalmente*/
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.logo {
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.navigation ul li a:hover {
+    background: dodgerblue;
+    border-radius: 50px;
+}
+
+/*Pie de página*/
+.footer {
+    background: #252932;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin-top: 6rem; /*Espacio del contenido y el footer*/
+    
+}
+
+/*Color de las letras del footer*/
+.footer p {
+    color: dodgerblue;
+}
+
+.main {
+    padding-top: 8rem; /*Espacio falseado entre el header y el contenido para que no se esconda debajo de la header fija*/
+}
+
+.button-menu {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 0 10px;
+    display: none;
+}
+
+/*ADAPTACIÓN PARA MÓVILES*/
+@media only screen and (max-width: 768px) {
+    
+    .button-menu {
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+
+    .navigation {
+        width: 100%;
+        margin-top: 1rem; /*Para dar espacio cuando se alineen con el titulo*/
+    }
+    
+    .navigation ul {
+        display: none;
+    }
+   
+    .navigation ul.show {
+        display: block;
+    }
+    
+    .navigation ul li {
+        display: block;
+    }
+    
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 0rem;
+        font-size: 18px;
+        font-weight: bold;
+        -o-transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    
+    .logo {
+        letter-spacing: 5px;
+        font-size: 40px;
+    }
+    
+    .navigation ul li a:hover {
+        background: dodgerblue;
+        border-radius: 50px;
+    }
+}
+
+
+
