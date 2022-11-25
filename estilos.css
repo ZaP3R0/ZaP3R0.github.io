@@ -1,8 +1,16 @@
 /*Cuerpo*/
+html {
+    height: 100%;
+}
+
 body {
     font-family: sans-serif;
     line-height: 1.4em;
     margin: 0; /*Eliminamos los margenes de la ventana*/
+    grid-template-areas: 
+    "header"
+    "main"        
+    "footer";
 }
 
 /*Título*/
@@ -18,16 +26,16 @@ p {
 
 /*Contenidos*/
 .container-body {
-    width: 85%;
+    width: 70%;
     max-width: auto;
     margin: 0 auto;
 }
 
 .main {
     padding-top: 8rem;
-    background-image: url(img/pexels-andrew-neel-2312369.jpg);
     width: 100%;
     display: flow-root;
+    grid-area: main;
     /*Espacio falseado entre el header y el contenido para que no se esconda debajo de la header fija*/
 }
 
@@ -45,6 +53,7 @@ p {
     left: 0;
     top: 0;
     width: 100%;
+    grid-area: header;
 }
 
 /*Contenido del header*/
@@ -54,7 +63,8 @@ p {
 }
 
 .header .site-surname {
-    color: dodgerblue;
+    color: #1e90ff;
+    text-shadow: 0 0 0.2em #1e90ff, 0 0 0.2em #1e90ff , 0 0 0.2em #1e90ff;
 }
 
 /*Logo nav*/
@@ -78,13 +88,12 @@ p {
 }
 
 .navigation ul li a {
-    display: block;
+    display: flex;
     padding: 0.5rem 1rem;
     font-size: 18px;
     font-weight: bold;
-    -o-transition: all 500ms ease;
-    -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    width: max-content;
 }
 
 .logo {
@@ -103,12 +112,16 @@ p {
     text-align: center;
     padding: 0.5rem 0;
     width: 100%;
-     /*Espacio del contenido y el footer*/
+    bottom: 0;
+    grid-area: footer;
+    /*Espacio del contenido y el footer*/
 }
 
 /*Color de las letras del footer*/
 .footer p {
+    margin-top: 20px;
     color: dodgerblue;
+    font-weight: bold;
 }
 
 .button-menu {
@@ -120,8 +133,93 @@ p {
     display: none;
 }
 
+/*Estilo de los botones del footer*/
+.container-footer a{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    border-radius: 50%;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.container-footer .icon-button {
+    background-color: #5a5a5a;
+    border-radius: 3.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.0rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    width: 3.6rem;
+  }
+  
+  /* Circle */
+.container-footer .icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+    width: 0;
+  }
+
+.container-footer .icon-button:hover span {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 3.6rem;
+    margin: -1.8rem;
+}
+
+.container-footer .twitter span {
+    background-color: #1e90ff;
+}
+
+.container-footer .facebook span {
+    background-color: #062b85;
+}
+
+.container-footer .instagram span {
+    background-color: #f10a54;
+}
+  
+  /* Icons */
+.container-footer i {
+    background: none;
+    color: white;
+    height: 3.6rem;
+    left: 0;
+    line-height: 3.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+    width: 3.6rem;
+    z-index: 10;
+}
+
 /*ADAPTACIÓN PARA MÓVILES*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 880px) {
     
     .button-menu {
         display: block;
@@ -157,8 +255,8 @@ p {
     }
     
     .logo {
-        letter-spacing: 5px;
-        font-size: 40px;
+        letter-spacing: 10px;
+        font-size: 30px;
     }
     
     .navigation ul li a:hover {
@@ -166,5 +264,6 @@ p {
         border-radius: 50px;
     }
 }
+
 
 
