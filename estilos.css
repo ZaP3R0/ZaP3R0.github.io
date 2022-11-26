@@ -105,6 +105,12 @@ p {
     flex-wrap: wrap; /*Para que al reducir la página los elementos no se fuerzen a estar uno al lado de otro y pasen a estar debajo*/
 }
 
+.nav-contacto {
+    background: #1e90ff;
+    border-bottom: 50px;
+    border-radius: 10px;
+}
+
 .navigation ul {
     margin: 0;
     padding: 0;
@@ -249,8 +255,6 @@ p {
 
 .img-portada {
     width: 650px;
-    background-size: cover;
-    margin: 0 auto;
     float: right;
     margin-top: 150px;
     z-index: -1;
@@ -259,7 +263,7 @@ p {
 
 @media only screen and (max-width: 1400px) {
     .img-portada {
-        opacity: 0.5;
+        opacity: 0.5;        
     }
 }
 
@@ -270,6 +274,10 @@ p {
         display: block;
         cursor: pointer;
         padding: 0.5rem 1rem;
+    }
+
+    .img-portada {
+        display: none;
     }
 
     .navigation {
