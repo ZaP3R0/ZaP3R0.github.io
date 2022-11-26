@@ -7,7 +7,11 @@ body {
     font-family: sans-serif;
     line-height: 1.4em;
     margin: 0; /*Eliminamos los margenes de la ventana*/
+    position: relative; /*Para que el footer se quede al final*/
+    padding-bottom: 10rem; /*Para que el footer se quede al final*/
+    min-height: 100vh; /*Para que el body mida como minimo lo que mida el viewport. Esto hace que el footer se quede al final*/
     grid-template-areas: 
+    
     "header"
     "main"        
     "footer";
@@ -24,19 +28,46 @@ p {
     margin-bottom: 1.6em;
 }
 
+.inicio {
+    background-image: url("img/bg.jpg"); 
+}
+
 /*Contenidos*/
 .container-body {
     width: 70%;
     max-width: auto;
     margin: 0 auto;
-}
-
-.main {
-    padding-top: 8rem;
-    width: 100%;
+    padding-top: 18rem;
     display: flow-root;
     grid-area: main;
-    /*Espacio falseado entre el header y el contenido para que no se esconda debajo de la header fija*/
+    max-width: 100%;
+}
+
+.main .presentation1 {
+   text-align: left;
+   padding-top: 200px; 
+   margin-left: 10px;
+   font-size: 35px;
+}
+
+.main .presentation2 {
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 40px;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.main .presentation2:active {
+    font-size: 50px;
+}
+
+.main .presentation3 {
+    margin-top: 45px;
+    font-size: 40px;
+    margin-left: 80px;
+    animation-delay: 1s;
 }
 
 .container-header {
@@ -111,8 +142,9 @@ p {
     background: #252932;
     text-align: center;
     padding: 0.5rem 0;
-    width: 100%;
-    bottom: 0;
+    position: absolute; /*Para que el footer se quede al final*/
+    bottom: 0; /*Para que el footer se quede al final*/
+    width: 100%; /*Para que el footer se quede al final*/
     grid-area: footer;
     /*Espacio del contenido y el footer*/
 }
@@ -216,6 +248,15 @@ p {
             transition: all 0.3s;
     width: 3.6rem;
     z-index: 10;
+}
+
+.img-portada {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 50px;
+    padding-left: 800px;
+    
 }
 
 /*ADAPTACIÓN PARA MÓVILES*/

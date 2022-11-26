@@ -2,13 +2,15 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Cabecera fija</title>
     <link rel="stylesheet" href="estilos.css">
-    <script src="https://kit.fontawesome.com/bdd9d25f9c.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="js/scripts.js"></script>
-    
+    <link rel="stylesheet" href="estilo_block_main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap" rel="stylesheet"> 
+        
 </head>
 
 <body>
@@ -25,39 +27,76 @@
 
 			<nav class="navigation">
 			    <ul class="">
-				    <li><a href="#">Inicio</a></li>
-				    <li><a href="#">Sobre mí</a></li>
-                    <li><a href="#">Formación</a></li>
-                    <li><a href="#">Conocimientos técnicos</a></li>
-                    <li><a href="#">Portfolio</a></li>
-				    <li><a href="#" class="nav-contacto">Contacto</a></li>
+				    <li><a href="#inicio">Inicio</a></li>
+				    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#conocimientos">Conocimientos técnicos</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+				    <li><a href="#contacto" class="nav-contacto">Contacto</a></li>
 			    </ul>
 		    </nav>
         </div>
 	</header>
 
-    <main class="main">
-        <div class="container-body">
-            <h1>Título</h1>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            
-		</div>
-    </main> 
     
+    <section class="inicio" id="inicio">
+        <div class="container-body">
+            <!--
+            <div class="container-body">
+                <div class="animate__animated presentation1 animate__bounce animate__repeat-2">¡¡Hola, buenas!!</div>
+                <div class="animate__animated presentation2 animate__fadeInLeftBig">Me llamo, Alejandro Villamayor Zapero</div>
+                <div class="animate__animated presentation3 animate__fadeInLeftBig">Y soy, informático</div>
+            </div>-->
+            <div class="presentation-logotipo" id="p-logotipo">
+                <div class="texto-animado" id="block-logo">Alejandro Villamayor Zapero</div>
+                <p class="subtitulo">Informático</p>
+                <a href="resources/CV-2022.pdf" class="download-cvc" download="CV-Alejandro-Villamayor-Zapero.pdf">Descargar CV</a>
+            </div>
+
+            <p allign="right"><img class="img-portada" src="img/photo_2022-11-26_17-54-24-modified.png"></p>
+        </div>
+    </section>
+
+    <!--SECCIÓN SOBRE MÍ-->
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="container-body">
+            <h1>PAGINA SOBRE MÍ</h1>
+        </div>
+    </section>
+    
+    <!--SECCIÓN FORMACIÓN-->
+    <section class="formacion" id="formacion">
+        <div class="container-body">
+            <h1>PAGINA FORMACIÓN</h1>
+        </div>
+    </section>
+
+     <!--SECCIÓN CONOCIMIENTOS TÉCNICOS-->
+     <section class="conocimientos" id="conocimientos">
+        <div class="container-body">
+            <h1>PAGINA CONOCIMIENTOS</h1>
+        </div>
+    </section>
+
+     <!--SECCIÓN PORTFOLIO-->
+     <section class="portfolio" id="portfolio">
+        <div class="container-body">
+            <h1>PAGINA PORTFOLIO</h1>
+        </div>
+    </section>
+
+     <!--SECCIÓN CONOCIMIENTOS CONTACTO-->
+     <section class="contacto" id="contacto">
+        <div class="container-body">
+            <h1>PAGINA CONTACTO</h1>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/bdd9d25f9c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!--SECCIÓN DEL FOOTER-->
 	<footer class="footer">
         <div class="container-footer">
             <section class="btn-footer">
