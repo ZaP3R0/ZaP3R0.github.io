@@ -10,11 +10,10 @@ body {
     position: relative; /*Para que el footer se quede al final*/
     padding-bottom: 10rem; /*Para que el footer se quede al final*/
     min-height: 100vh; /*Para que el body mida como minimo lo que mida el viewport. Esto hace que el footer se quede al final*/
-    grid-template-areas: 
-    
-    "header"
-    "main"        
-    "footer";
+}
+
+.inicio {
+    background-image: url(/ZaP3R0.github.io/img/bg.jpg);
 }
 
 /*Título*/
@@ -26,10 +25,6 @@ h1 {
 /*Párrafos*/
 p {
     margin-bottom: 1.6em;
-}
-
-.inicio {
-    background-image: url("img/bg.jpg"); 
 }
 
 /*Contenidos*/
