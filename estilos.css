@@ -12,6 +12,11 @@ body {
     min-height: 100vh; /*Para que el body mida como minimo lo que mida el viewport. Esto hace que el footer se quede al final*/
 }
 
+.inicio {
+    background-image: url(img/bg.jpg);
+}
+
+
 /*Título*/
 h1 {
     font-size: 2rem;
