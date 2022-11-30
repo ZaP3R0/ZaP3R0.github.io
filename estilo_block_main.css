@@ -13,7 +13,6 @@
     color: var(--logotipo);
     max-width: 400px;
     width: auto;
-    z-index: 2;
 }
 
 .presentation-logotipo .subtitulo {
@@ -25,7 +24,7 @@
     border-radius: 6px;
     justify-content: center;
     display: flex;
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans' sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -104,6 +103,13 @@
     .presentation-logotipo {
         height: auto;
         width: auto;
+    }
+}
+
+@media only screen and (max-width: 1386px) {
+    .presentation-logotipo {
+        margin: auto;
+        margin-top: 200px;
     }
 }
 
