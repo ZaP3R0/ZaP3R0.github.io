@@ -41,6 +41,7 @@
     flex-direction: column;
     position: relative;
     transition: .3s ease all;
+    z-index: -1;
 }
 
 .texto-animado .segundo-span{
