@@ -18,7 +18,7 @@
 .presentation-logotipo .subtitulo {
 	text-align: center;
 	color: var(--profesion);
-	background: var(--logotipo);
+	background: dodgerblue;
 	padding: 12px 36px;
     font-size: 36px;
     border-radius: 6px;

@@ -1,3 +1,4 @@
+/*Para controlar el despliegue y la ocultación del menú*/
 jQuery('document').ready(function($){
     
     var menuBtn = $('.button-menu'),
@@ -5,6 +6,31 @@ jQuery('document').ready(function($){
     menuBtn.click(function() {
         if(menu.hasClass('show')) {
             menu.removeClass('show');
+
+             
+            $(".btnInicio").click(function(){
+                menu.removeClass('show');
+            });
+
+            $(".btnSobreMi").click(function(){
+                menu.removeClass('show');
+            });
+
+            $(".btnFormacion").click(function(){
+                menu.removeClass('show');
+            });
+
+            $(".btnConocimiento").click(function(){
+                menu.removeClass('show');
+            });
+
+            $(".btnPortfolio").click(function(){
+                menu.removeClass('show');
+            });
+
+            $(".btnContacto").click(function(){
+                menu.removeClass('show');
+            });
             
         } else {
             menu.addClass('show');
