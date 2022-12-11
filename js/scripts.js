@@ -1,19 +1,37 @@
 jQuery('document').ready(function($){
     
-    let inicio = document.getElementById('btnInicio');
-
     var menuBtn = $('.button-menu'),
         menu = $('.navigation ul');
-
     menuBtn.click(function() {
         if(menu.hasClass('show')) {
             menu.removeClass('show');
-
+            
+        } else {
+            menu.addClass('show');
+            
             $(".btnInicio").click(function(){
                 menu.removeClass('show');
             });
-        } else {
-            menu.addClass('show');
+
+            $(".btnSobreMi").click(function(){
+                menu.removeClass('show');
+            });
+
+            $(".btnFormacion").click(function(){
+                menu.removeClass('show');
+            });
+
+            $(".btnConocimiento").click(function(){
+                menu.removeClass('show');
+            });
+
+            $(".btnPortfolio").click(function(){
+                menu.removeClass('show');
+            });
+
+            $(".btnContacto").click(function(){
+                menu.removeClass('show');
+            });
         }
     });
 });
