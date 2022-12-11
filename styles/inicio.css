@@ -11,7 +11,8 @@ body {
     padding-bottom: 10rem; /*Para que el footer se quede al final*/
     min-height: 100vh; /*Para que el body mida como minimo lo que mida el viewport. Esto hace que el footer se quede al final*/
     background-image: url(../img/fondo_inicio.jpg);
-    background-repeat: inherit;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .inicio {

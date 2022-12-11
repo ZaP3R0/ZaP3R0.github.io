@@ -1,6 +1,5 @@
 .conocimientos {
-    background: black;
-    color: white;
+    background: #252932;
 }
 
 .skills-title {
@@ -9,6 +8,7 @@
     text-transform: uppercase;
     text-align: center;
     font-family: 'Noto sans';
+    color: white;
 }
 
 .conocimientos .body-container {
@@ -24,6 +24,8 @@
     border-radius: 42px;
     padding: 0.5em 0.7em;
     margin: 10px;
+    color: white;
+    font-weight: bold;
 }
 
 .skill button {
