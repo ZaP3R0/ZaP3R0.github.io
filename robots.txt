@@ -1,0 +1,6 @@
+Sitemap: https://zap3r0.github.io/sitemap.xml
+
+User-Agent: *
+Disallow: /styles/
+Disallow: /img/
+Disallow: /js/
