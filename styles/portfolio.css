@@ -34,8 +34,8 @@
 
 .project {
    width: 350px;
-   height: 380px;
    background-color: #252932; 
+   padding-bottom: 25px;
    margin: 1em;
 }
 
