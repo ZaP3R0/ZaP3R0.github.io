@@ -1,10 +1,343 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Inicio</title>
-  </head>
-  <body>
-    <p>Esto es un ejemplo</p>
-    <p>Hola buenas</p>
-  </body>
+<html lang="es">
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-T4CEF90BKQ"></script>
+	<script>
+ 		window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'G-T4CEF90BKQ');
+	</script>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="ahrefs-site-verification" content="c85e25568e9a9bf516f216e2a80b7fb5b2b1f327da9ccc4d635b58e5c235090b">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Alejandro V.Z</title>
+    <link rel="stylesheet" href="./styles/inicio.css">
+    <link rel="stylesheet" href="./styles/sobre-mi.css">
+    <link rel="stylesheet" href="./styles/conocimientos.css">
+    <link rel="stylesheet" href="./styles/formacion.css">
+    <link rel="stylesheet" href="./styles/estilo_block_main.css">
+    <link rel="stylesheet" href="./styles/portfolio.css">
+    <link rel="stylesheet" href="./styles/contacto.css">
+    <link rel="icon" href="img/icone-html-bleue.png" type="image/png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap" rel="stylesheet"> 
+        
+</head>
+
+<body>
+    <header class="header">        
+		<div class="container-header logo-nav-container">
+		    <a class="logo" href="#">
+                <span class="site-name">Alejandro</span><br>
+                <span class="site-surname">Villamayor</span>
+            </a>
+
+            <button class="button-menu">
+                Menú <i class="fa-solid fa-bars"></i>
+            </button>
+
+			<nav class="navigation">
+			    <ul class="">
+				    <li><a class="btnInicio" href="#inicio">Inicio</a></li>
+				    <li><a class="btnSobreMi" href="#sobre-mi">Sobre mí</a></li>
+                    <li><a class="btnFormacion" href="#formacion">Formación</a></li>
+                    <li><a class="btnConocimientos" href="#conocimientos">Conocimientos técnicos</a></li>
+                    <li><a class="btnPortfolio" href="#portfolio">Portfolio</a></li>
+				    <li><a class="btnContacto" href="#contacto" class="nav-contacto">Contacto</a></li>
+			    </ul>
+		    </nav>
+        </div>
+	</header>
+
+    
+    <section class="inicio" id="inicio">
+        <div class="container-body">
+            <!--
+            <div class="container-body">
+                <div class="animate__animated presentation1 animate__bounce animate__repeat-2">¡¡Hola, buenas!!</div>
+                <div class="animate__animated presentation2 animate__fadeInLeftBig">Me llamo, Alejandro Villamayor Zapero</div>
+                <div class="animate__animated presentation3 animate__fadeInLeftBig">Y soy, informático</div>
+            </div>-->
+            <div class="img-container"><img class="img-portada" src="img/foto-portada-min.png" alt="Foto portada"></div>
+            
+            <div class="presentation-logotipo" id="p-logotipo">
+                <div class="texto-animado" id="block-logo">Alejandro Villamayor Zapero</div>
+                <p class="subtitulo">Informático</p>
+                <a href="resources/CV-2022.pdf" class="download-cvc" download="CV-Alejandro-Villamayor-Zapero.pdf">Descargar CV</a>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!--SECCIÓN SOBRE MÍ-->
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="container-body">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, soy <br/> Alejandro Villamayor Zapero</h1>
+                <p class="profile-details">En la actualidad soy un estudiante que está cursando el último curso del grado de Ingeniería Informática en la Escuela Superior de Informática de Ciudad Real.<br> 
+                Con respecto a mis competencias me considero una persona que trabaja muy bien equipo y con buenas dotes de organización, por otro lado
+                sobre mis compentencias relacionadas con el empleo me considero una persona responsable, trabajadora, puntual y comprometida.
+                </p>
+            </div>
+            <span class="profile-img">
+                <img src="img/sobre-mi-min.PNG" alt="Foto sobre mí"/>
+            
+                <div class="profile-img-line"></div>
+            </span>
+        </div>
+    </section>
+    
+    <!--SECCIÓN FORMACIÓN-->
+    <section class="formacion" id="formacion">
+        <div class="container-body">
+            <h1 class="education-title">FORMACIÓN</h1>
+            <div class="education-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+
+                <div class="education">
+                    <div class="education-date">2014-2017</div>
+                    <div class="education-name">Bachillerato Tecnológico</div>
+                    <div class="education-company">IES Valdehierro (Madridejos)</div>
+                </div>
+                
+                <div class="education education-left">
+                    <div class="education-date">2017-2019</div>
+                    <div class="education-name">Administración de Sistemas Informáticos en Red</div>
+                    <div class="education-company">IES Valdehierro (Madridejos)</div>
+                </div>
+
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="education">
+                    <div class="education-date">2019-Actualidad</div>
+                    <div class="education-name">Grado en Ingeniería Informática</div>
+                    <div class="education-company">Escuela Superior de Informática de Ciudad Real (UCLM)</div>
+                </div>
+
+              
+                <div class="education education-left">
+                    <div class="education-date">Jul 2022-Ago 2022</div>
+                    <div class="education-name">Cambridge English Assessment B1</div>
+                    <div class="education-company">Academia Lingua (Madridejos)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--SECCIÓN CONOCIMIENTOS TÉCNICOS-->
+     <section class="conocimientos" id="conocimientos">
+        <div class="container-body">
+            <h1 class="skills-title">CONOCIMIENTOS TÉCNICOS</h1>
+            <ul class="skills-list">
+                <li class="skill">Java
+                    <img src="img/icons8-java-40.png" alt="Java">
+                </li>
+                <li class="skill">Python
+                    <img src="img/icons8-python-40.png" alt="Python">
+                </li>
+                <li class="skill">C++
+                    <img src="img/icons8-c++-40.png" alt="C++">
+                </li>
+                <li class="skill">Visual Basic
+                    <img src="img/icons8-visual-studio-40.png" alt="Visual Studio">
+                </li>
+                <li class="skill">HTML
+                    <img src="img/icons8-html-5-40.png" alt="html">
+                </li>
+                <li class="skill">CSS
+                    <img src="img/icons8-css3-40.png" alt="CSS">
+                </li>
+                <li class="skill">JavaScript
+                    <img src="img/icons8-javascript-40.png" alt="JavScript">
+                </li>
+                <li class="skill">SQL
+                    <img src="img/icons8-sql-40.png" alt="SQL">
+                </li>
+                <li class="skill">MySQL
+                    <img src="img/icons8-my-sql-40.png" alt="MySQL">
+                </li>
+                <li class="skill">Cisco Packet Tracer
+                    <img src="img/icons8-cisco-anyconnect-40.png" alt="Cisco Packet Tracer">
+                </li>
+                <li class="skill">UWP
+                    <img src="img/icons8-windows-10-40.png" alt="UWP">
+                </li>
+                <li class="skill">Github
+                    <img src="img/icons8-github-40.png" alt="Github">
+                </li>
+                <li class="skill">Ubuntu Linux
+                    <img src="img/icons8-ubuntu-40.png" alt="Ubuntu Linux">
+                </li>
+                <li class="skill">WordPress
+                    <img src="img/icons8-wordpress-40.png" alt="WordPress">
+                </li>
+                <li class="skill">C#
+                    <img src="img/icons8-c-sharp-logo-2-40.png" alt="C#">
+                </li>
+                <li class="skill">.NET
+                    <img src="img/icons8-.net-framework-40.png" alt=".NET">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+     <!--SECCIÓN PORTFOLIO-->
+     <section class="portfolio" id="portfolio">
+        <h1 class="portfolio-title">PORTFOLIO</h1>
+        <div class="container-body">
+                <div class="project">
+                    <div class="project-image1"></div>
+                    <div class="project-title">
+                        <h2>Proyecto Pokémon</h2>
+                        <p class="project-description">Proyecto que consiste en una aplicación UWP de temática Pokémon</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/ZaP3R0/IPO2">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="project">
+                    <div class="project-image2"></div>
+                    <div class="project-title">
+                        <h2>Proyecto Indistance</h2>
+                        <p class="project-description">Aplicación GPS que muestra diferente tipo de información</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/ZaP3R0/GSI">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-image3"></div>
+                    <div class="project-title">
+                        <h2>Proyecto MuMaps</h2>
+                        <p class="project-description">Aplicación WPF que intrega GPS y Spotify que genera playlist según la distancia</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/DaniiRomero/isi_mumaps">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                   
+                </div>
+
+                <div class="project">
+                    <div class="project-image4"></div>
+                    <div class="project-title">
+                        <h2>Proyecto Sescam</h2>
+                        <p class="project-description">Software para la gestión de pacientes con enfermedades infectocontagiosas</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/Pedrazaax/ISO2-2022-C01">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                   
+                </div>
+
+                <div class="project">
+                    <div class="project-image5"></div>
+                    <div class="project-title">
+                        <h2>Proyecto Vídeo Interactivo</h2>
+                        <p class="project-description">Página Web que contiene un video interactivo, un cuestionario y un juego</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/ZaP3R0/Multimedia-22-23">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+            
+        </div>
+    </section>
+
+     <!--SECCIÓN CONTACTO-->
+     <section class="contacto" id="contacto">
+        <div class="container-body">
+            <h1 class="contact-title">CONTACTO</h1>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Dirección:</p>
+                    <p class="contact-text">Madridejos, Toledo</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-label">Email:</p>
+                    <p class="contact-text">alejandrozapero@gmail.com</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text-m">¡Enviame un mensaje y con gusto te contestaré!</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre:</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Email:</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="mesagge">Mensaje:</label>
+                    <textarea required name="mesagge" id="mesagge" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn-form-submit">Enviar</button>
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/alejandro-villamayor-zapero-10175024b/">
+                            <button class="btnLinkdln">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </button>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://github.com/ZaP3R0">
+                            <button class="btnGithub">
+                                <i class="fa-brands fa-square-github"></i>
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+    </section>
+
+    <script src="https://kit.fontawesome.com/bdd9d25f9c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+    <!--SECCIÓN DEL FOOTER-->
+	<footer class="footer">
+        <div class="container-footer">
+            <section class="btn-footer">
+                <a href="https://twitter.com/alejandro_224" class="icon-button twitter"><i class="fa-brands fa-twitter"></i><span></span></a>
+                <a href="https://www.facebook.com/alejandro.villamayorzapero" class="icon-button facebook"><i class="fa-brands fa-facebook-f"></i><span></span></a>
+                <a href="https://www.instagram.com/alejandrozapero/" class="icon-button instagram"><i class="fa-brands fa-instagram"></i><span></span></a>
+            </section>
+        </div>
+        <p>Alejandro Villamayor Zapero ©Copyright 2022</p>
+    </footer> <!-- / #main-footer -->
+   	
+</body>
 </html>

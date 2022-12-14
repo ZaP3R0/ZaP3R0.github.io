@@ -1,0 +1,99 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.education-date {
+    font-size: 25px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.education-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 25px;
+    font-family: 'Noto sans';
+}
+
+.education-name {
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-top: 5px;
+   font-weight: bold;
+}
+
+.education-company {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 950px) {
+    .education {
+        padding: 0;
+    }
+    
+    .education-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        margin: 25px;
+        font-family: 'Noto sans';
+    }
+    
+    .education-name {
+       font-size: 20px;
+       text-transform: uppercase;
+       margin-top: 5px;
+       font-weight: bold;
+    }
+    
+    .education-company {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .formacion .education-grid {
+        display: grid;
+        grid-template-columns: auto 2px auto;
+        gap: 20px 70px;
+        padding: 70px;
+        justify-content: center;
+        max-width: 980px;
+        margin: 0 auto;
+    }
+
+    .education-left {
+        text-align: right;
+    }
+
+    .line {
+        background-color: dodgerblue;
+        height: 200px;
+        position: relative;
+        z-index: -1;
+    }
+
+    .line::before,
+    .line::after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: dodgerblue;
+        border-radius: 50px;
+        position: absolute;
+        top: -20px;
+        left: -9px;
+    }
+
+    .line::after {
+        top: 100%;
+    }
+}
