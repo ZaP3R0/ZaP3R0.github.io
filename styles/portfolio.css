@@ -37,7 +37,7 @@
 .project-image1 {
    width: 100%;
    height: 200px;
-   background-image: url(../img/FondoPokedex.jpg); 
+   background-image: url(../img/FondoPokedex-min.webp); 
    background-size: cover;
    background-position: center;
 }
@@ -45,7 +45,7 @@
 .project-image2 {
     width: 100%;
     height: 200px;
-    background-image: url(../img/indistance.png); 
+    background-image: url(../img/indistance-min.webp); 
     background-size: cover;
     background-position: center;
  }
@@ -53,7 +53,7 @@
  .project-image3 {
     width: 100%;
     height: 200px;
-    background-image: url(../img/mumaps.png); 
+    background-image: url(../img/mumaps-min.webp); 
     background-size: cover;
     background-position: center;
  }
@@ -61,7 +61,7 @@
  .project-image4 {
     width: 100%;
     height: 200px;
-    background-image: url(../img/sescam.png); 
+    background-image: url(../img/sescam-min.webp); 
     background-size: cover;
     
  }
@@ -69,7 +69,7 @@
  .project-image5 {
     width: 100%;
     height: 200px;
-    background-image: url(../img/escudo_españa.jpg); 
+    background-image: url(../img/escudo_españa.webp); 
     background-size: cover;
  }
 
@@ -141,7 +141,7 @@
     .project-image1 {
         width: 100%;
         height: 200px;
-        background-image: url(../img/FondoPokedex.jpg); 
+        background-image: url(../img/FondoPokedex-min.webp); 
         background-position: center;
         display: flex;
     }
@@ -149,7 +149,7 @@
     .project-image2 {
         width: 100%;
         height: 200px;
-        background-image: url(../img/indistance.png); 
+        background-image: url(../img/indistance-min.webp); 
         background-position: center;
         display: flex;
      }
@@ -157,7 +157,7 @@
      .project-image3 {
         width: 100%;
         height: 200px;
-        background-image: url(../img/mumaps.png); 
+        background-image: url(../img/mumaps-min.webp); 
         background-position: center;
         display: flex;
      }
@@ -165,7 +165,7 @@
      .project-image4 {
         width: 100%;
         height: 200px;
-        background-image: url(../img/sescam.png); 
+        background-image: url(../img/sescam-min.webp); 
         background-position: center;
         display: flex;
      }
@@ -173,7 +173,7 @@
      .project-image5 {
         width: 100%;
         height: 200px;
-        background-image: url(../img/escudo_españa.jpg); 
+        background-image: url(../img/escudo_españa.webp); 
         background-position: center;
         display: flex;
      }
