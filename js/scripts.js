@@ -20,7 +20,7 @@ jQuery('document').ready(function($){
                 menu.removeClass('show');
             });
 
-            $(".btnConocimiento").click(function(){
+            $(".btnConocimientos").click(function(){
                 menu.removeClass('show');
             });
 
@@ -47,7 +47,7 @@ jQuery('document').ready(function($){
                 menu.removeClass('show');
             });
 
-            $(".btnConocimiento").click(function(){
+            $(".btnConocimientos").click(function(){
                 menu.removeClass('show');
             });
 
