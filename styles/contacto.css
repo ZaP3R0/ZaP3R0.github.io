@@ -53,6 +53,11 @@
     justify-content: center;
 }
 
+.social-description {
+    text-align: center;
+    font-size: 14px;
+}
+
 .social-item button {
     background: none;
     border: none;
