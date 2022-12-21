@@ -82,6 +82,7 @@
 .project-link {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .project-link a {
@@ -114,7 +115,6 @@
 .social-description {
     color: white;
     font-size: 14px;
-    text-align: center;
     margin-top: -1px;
 }
 
@@ -160,6 +160,12 @@
         background-position: center;
         display: flex;
      }
+
+     .social-description {
+        color: white;
+        font-size: 14px;
+        margin-top: -1px;
+    }
     
      .project-image3 {
         width: 100%;
@@ -168,13 +174,6 @@
         background-position: center;
         display: flex;
      }
-
-     .social-description {
-        color: white;
-        font-size: 14px;
-        text-align: center;
-        margin-top: -1px;
-    }
     
      .project-image4 {
         width: 100%;
