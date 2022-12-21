@@ -64,15 +64,13 @@
     color: white;
     font-size: 40px;
     cursor: pointer;
-    width: 65px;
+    width: 70px;
     transition: all 500ms ease;
 }
 
 .social-item button:hover {
     background: dodgerblue;
     border: 50px;
-    
-    position: block;
     border-radius: 7px;
 }
 
