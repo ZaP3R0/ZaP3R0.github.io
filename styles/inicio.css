@@ -75,8 +75,8 @@ p {
     flex-wrap: wrap; /*Para que al reducir la página los elementos no se fuerzen a estar uno al lado de otro y pasen a estar debajo*/
 }
 
-.nav-contacto {
-    background: #1e90ff;
+.btnContacto {
+    background: dodgerblue;
     border-bottom: 50px;
     border-radius: 10px;
 }
