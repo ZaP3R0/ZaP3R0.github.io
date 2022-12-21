@@ -128,6 +128,11 @@ p {
     color: white;
 }
 
+.social-description {
+    text-align: center;
+    font-size: 14px;
+}
+
 .button-menu {
     color: white;
     background: none;
@@ -169,8 +174,12 @@ p {
             user-select: none;
     width: 3.6rem;
   }
-  
-  /* Circle */
+
+  .footer p {
+    color: dodgerblue;
+  }
+
+ /* Circle */
 .container-footer .icon-button span {
     border-radius: 0;
     display: block;
